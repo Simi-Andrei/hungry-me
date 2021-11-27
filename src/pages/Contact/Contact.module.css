@@ -1,0 +1,179 @@
+.title {
+  padding-top: 8rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  color: rgb(171, 3, 3);
+  padding-bottom: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 20rem;
+}
+
+.left {
+  margin-top: 10rem;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.left img {
+  width: 24rem;
+  height: 16rem;
+  border: 2px solid rgb(171, 3, 3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image1 {
+  position: absolute;
+  top: -14rem;
+  left: 12rem;
+}
+
+.image2 {
+  position: absolute;
+  top: -12rem;
+  left: 16rem;
+  z-index: -1;
+}
+
+.right {
+  margin-top: 8rem;
+  flex: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row1 input {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  border-radius: 0rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  width: 14rem;
+}
+
+.row1 input::placeholder {
+  opacity: 0.5;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row2 input {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  border-radius: 0rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  width: 14rem;
+}
+
+.row2 input::placeholder {
+  opacity: 0.5;
+}
+
+.row1 input:focus,
+.row2 input:focus {
+  outline: none;
+}
+
+textarea {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  width: 29rem;
+  border-radius: 0rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  font-family: 'Montserrat';
+}
+
+.terms {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  width: 30rem;
+  line-height: 1.4rem;
+}
+
+.terms input {
+  margin-right: 0.5rem;
+}
+
+.terms a {
+  margin-left: 1.3rem;
+  color: #000;
+}
+
+.terms a:hover {
+  color: rgb(171, 3, 3);
+}
+
+.terms button {
+  color: rgb(171, 3, 3);
+  border: none;
+  margin-left: 0.3rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.terms button:focus {
+  outline: none;
+}
+
+.submit {
+  margin-top: 2rem;
+}
+
+.submit button {
+  font-size: 1.2rem;
+  padding: 0.6rem 2rem;
+  border-radius: 0;
+  background-color: rgb(171, 3, 3);
+  border: 1px solid rgb(171, 3, 3);
+  color: whitesmoke;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit button:hover {
+  background-color: whitesmoke;
+  border: 1px solid rgb(171, 3, 3);
+  color: rgb(171, 3, 3);
+}

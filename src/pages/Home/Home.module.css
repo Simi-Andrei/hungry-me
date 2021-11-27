@@ -1,0 +1,82 @@
+.page {
+  height: auto;
+}
+
+.banner {
+  width: 100%;
+  height: 92vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.page {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5rem;
+}
+
+.right {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5rem;
+}
+
+.left h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  letter-spacing: 0.3rem;
+  margin: 1rem;
+  padding-top: 5rem;
+}
+
+.left p {
+  margin: 1rem;
+  letter-spacing: 0.5rem;
+}
+
+.left button {
+  margin: 1rem;
+  background: rgb(171, 3, 3);
+  color: whitesmoke;
+  padding: 0.8rem 2.2rem;
+  outline: none;
+  border: 1px solid rgb(171, 3, 3);
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  transition: all 0.2s ease;
+}
+
+.left button:hover {
+  background: transparent;
+  color: rgb(171, 3, 3);
+  border: 1px solid rgb(171, 3, 3);
+}
+
+@media only screen and (max-width: 768px) {
+  .left {
+    margin-left: 3.5rem;
+  }
+  .left h1 {
+    margin-top: -10rem;
+  }
+}

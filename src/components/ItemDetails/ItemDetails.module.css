@@ -1,0 +1,21 @@
+.details {
+  background: whitesmoke;
+  position: absolute;
+  top: 14rem;
+  left: 0;
+  width: 20rem;
+  height: 12rem;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: rgb(171, 3, 3);
+}
+
+.detailsTitle {
+  padding-top: 2rem;
+}

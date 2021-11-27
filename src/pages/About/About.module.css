@@ -1,0 +1,59 @@
+.title {
+  padding-top: 8rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  color: rgb(171, 3, 3);
+  padding-bottom: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.infoTitle {
+  padding-bottom: 2rem;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20rem;
+}
+
+.left {
+  padding-top: 6rem;
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.left .info {
+  margin-bottom: 2rem;
+}
+
+.left span {
+  font-weight: 700;
+}
+
+.right {
+  padding-top: 6rem;
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.marker {
+  color: rgb(171, 3, 3);
+  font-size: 3rem;
+}
+
+.about {
+  padding: 5rem 20rem;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.form {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button {
+  background: rgb(171, 3, 3);
+  color: whitesmoke;
+  border: 1px solid rgb(171, 3, 3);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  color: rgba(171, 3, 3, 1);
+  border: 1px solid rgb(171, 3, 3);
+  background: whitesmoke;
+}

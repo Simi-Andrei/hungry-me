@@ -1,0 +1,59 @@
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: rgba(171, 3, 3, 0.5);
+  color: whitesmoke;
+  padding: 0.3rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.button:hover,
+.button:active {
+  background-color: rgba(171, 3, 3, 0.4);
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.badge {
+  background-color: rgba(171, 3, 3, 0.5);
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  margin-left: 0.6rem;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: rgba(171, 3, 3, 0.3);
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

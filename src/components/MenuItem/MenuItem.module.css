@@ -1,0 +1,60 @@
+.item {
+  border: 1px solid #ccc;
+  width: 20rem;
+  height: 26rem;
+  margin: 0rem;
+  box-shadow: 0 5px 10px rgba(38, 38, 38, 0.1);
+  overflow: hidden;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease;
+  margin-top: 0rem;
+  position: relative;
+}
+
+.item:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.item h3 {
+  margin: 1rem 1rem 1rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.details {
+  background: whitesmoke;
+  color: rgb(171, 3, 3);
+  border: 1px solid rgb(171, 3, 3);
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  margin-left: 1.5rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.details:hover {
+  color: whitesmoke;
+  border: 1px solid rgb(171, 3, 3);
+  background: rgb(171, 3, 3);
+}
+
+.item p {
+  margin: 1rem 0 1rem 1.5rem;
+  font-weight: 700;
+}
+
+.image {
+  width: 100%;
+  height: 14rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}

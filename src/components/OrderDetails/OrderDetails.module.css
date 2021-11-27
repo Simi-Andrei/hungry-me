@@ -1,0 +1,66 @@
+.orderDetails {
+  background-color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.orderDetails p {
+  padding: 1rem 0;
+  font-weight: 700;
+}
+
+.orderDetails label {
+  padding: 1rem 0;
+}
+
+.orderDetails input {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 12rem;
+}
+
+.orderDetails input:focus {
+  outline: none;
+}
+
+.orderButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderDetails button {
+  margin: 3rem 1rem 0 0;
+}
+
+.orderBack {
+  color: rgba(171, 3, 3, 1);
+  background: whitesmoke;
+  border: 1px solid rgba(171, 3, 3, 1);
+  transition: all 0.2s ease;
+}
+
+.orderBack:hover {
+  color: whitesmoke;
+  background: rgba(171, 3, 3, 1);
+}
+
+.orderPlace {
+  background: rgba(171, 3, 3, 1);
+  color: whitesmoke;
+  border: 1px solid rgba(171, 3, 3, 1);
+}
+
+.orderPlace:hover {
+  color: rgba(171, 3, 3, 1);
+  border: 1px solid rgba(171, 3, 3, 1);
+  background: whitesmoke;
+}

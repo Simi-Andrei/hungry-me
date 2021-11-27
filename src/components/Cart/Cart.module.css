@@ -1,0 +1,55 @@
+.items {
+  list-style: none;
+  margin: 0;
+  padding: 0 1rem;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 2rem 0 2rem 0;
+  padding: 0 1rem;
+}
+
+.actions {
+  text-align: right;
+  padding: 0 1rem;
+}
+
+.actions button {
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.actions .close {
+  color: rgba(171, 3, 3, 1);
+  background: whitesmoke;
+  border: 1px solid rgba(171, 3, 3, 1);
+  transition: all 0.2s ease;
+}
+
+.actions .close:hover {
+  color: whitesmoke;
+  background: rgba(171, 3, 3, 1);
+}
+
+.actions .order {
+  background: rgba(171, 3, 3, 1);
+  color: whitesmoke;
+  border: 1px solid rgba(171, 3, 3, 1);
+}
+
+.actions .order:hover {
+  color: rgba(171, 3, 3, 1);
+  border: 1px solid rgba(171, 3, 3, 1);
+  background: whitesmoke;
+}

@@ -1,0 +1,168 @@
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+.bannerCover {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerTitle {
+  padding-top: 8rem;
+  font-size: 3.6rem;
+  color: whitesmoke;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+}
+
+.offers {
+  margin: 2.2rem 0 0.4rem 0;
+  padding: 0.4rem 2rem;
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+  border-radius: 1rem;
+  color: whitesmoke;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.offers:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menuListTitle {
+  margin: 2rem 0 0 0;
+  font-size: 1.4rem;
+  color: rgb(171, 3, 3);
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+
+.menuList {
+  margin-top: 4rem;
+  width: 65vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.filterButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.filterButtons button {
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+  cursor: pointer;
+  width: 4rem;
+  height: 4rem;
+  transition: all 0.2s ease;
+}
+
+.menuButton {
+  position: relative;
+  border-radius: 50%;
+  width: 4rem;
+  margin: 1rem 1.2rem;
+}
+
+.menuButton:hover button {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+}
+
+.tooltiptext {
+  opacity: 0;
+  font-size: 0rem;
+  text-align: center;
+  background-color: whitesmoke;
+  color: whitesmoke;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  transition: all 0.2s ease;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.menuButton:hover .tooltiptext {
+  opacity: 1;
+  top: -70%;
+  font-size: 1rem;
+}
+
+.iconButton {
+  pointer-events: none;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.menuButton:hover .iconButton {
+  color: whitesmoke;
+}
+
+.input {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input input {
+  margin-top: 2rem;
+  margin-left: 12rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #000;
+  width: 20rem;
+}
+
+.input input::placeholder {
+  font-style: italic;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.menuFooter {
+  margin-bottom: 6rem;
+  border-top: 1px solid rgb(171, 3, 3);
+  padding: 0.5rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

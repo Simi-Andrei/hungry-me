@@ -1,0 +1,15 @@
+.quantity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.quantity input {
+  width: 5.5rem;
+  padding: 0.5rem 1.3rem;
+  border: 1px solid #ccc;
+}
+
+.quantity input:focus {
+  outline: none;
+}
